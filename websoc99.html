@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="FUC">
+      <meta name="author" content="ashthehacker">
+      <title>Web Sockets</title>
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/style.css" rel="stylesheet">
+      <link href="https://dl.dropbox.com/s/w9ywuzlvqvv7kln/codepen-template.scss" rel="stylesheet" />
+
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="articles.html">Articles </a></li>
+                  <li class="nav-item"><a class="item-anchor" href="download.html">Upload</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+       
+       <header class="zoom">
+	     <img src="img/artimg/webs.png">
+         <center><h1 class = "temph1">WebS</h1></center>
+       </header>
+       <main role="main">
+	    <div class="content max-scroll-y">
+		  <h1>Web Sockets</h1>
+		   <a href="links.html" alt="" target="_blank">Sources</a>
+  <p style="font-family:Georgia,sans-serif">Historically, creating web applications that need “bidirectional communication” (instant two way communication in real time) between a client and a server (e.g., instant messaging and gaming applications) has required an abuse of HTTP to poll the server for updates while sending upstream notifications as distinct HTTP calls<br><br>
+
+This resulted in many problems such as :<br>
+
+      <li>1- The server is forced to use a number of different underlying TCP connections for each client: one for sending information to the client and a new one for each incoming message.</li>
+
+      <li>2- The wire protocol has a high overhead, with each client-to-server message having an HTTP header.</li><br><br>
+
+A simpler solution would be to use a single TCP connection for traffic in both directions. This is what the WebSocket Protocol provides. Combined with the WebSocket API (WSAPI), it provides an alternative to HTTP polling for two-way communication from a web page to a remote server.</p>
+    <footer> 
+       <h5 align = "center"><i class="fa fa-copyright fa-flip-horizontal"></i> EPICOIN</h5>
+    </footer>
+		
+	</div>
+	
+</main>
+      <!-- script -->
+      <script src="js/jquery.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/lightbox-plus-jquery.js"></script>
+      <script src="js/jquery.shuffle.min.js"></script>
+      <script src="js/modernizr.js"></script>
+      <script src="js/script.js"></script>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+   </body>
+</html>

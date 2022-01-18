@@ -1,4 +1,5 @@
 [![Logo](img/image.png)](https://ashwinsk01.github.io/epitacoin.github.io)
+
 Epicoin is a blockchain where the proof of work is done by the solving of NP-Complete problems.
 
 ### Description
